@@ -1,0 +1,53 @@
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+.header header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #7E57C2;
+}
+.header header .logo{
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.header .nav nav ul{
+    display: flex;
+    gap:24px;
+    list-style: none;
+}
+.header .nav nav ul li{
+   padding: 8px 16px;
+}
+nav ul a{
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+}
+.current{
+    border-radius: 24px;
+    background-color: #9575CD;
+   
+}
+
+
+.main main{
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4527A0;
+}
+
